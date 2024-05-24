@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 10%;
+}
+
+body > main{
+    background-color: rgba(255, 255, 255, 0.822);
+    width: 690px;
+    padding: 26px;
+    padding-top: 30px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.omelette{
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Young Serif';
+    font-weight: 500;
+    font-size: 35px;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Young Serif';
+    font-weight: 300;
+    font-size: 26px;
+    color: hsl(14, 45%, 36%);
+}
+
+hr{
+    margin: 20px;
+}
+
+.prepa > h2{
+    font-family: 'Outfit';
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+
+p, .prepa{
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredients > li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.prepa{
+    list-style-position: inside;
+    background-color: hsla(332, 51%, 32%, 0.247);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 13px;
+}
+
+.ingredients{
+    font-family: 'Outfit';
+    font-weight: 300;
+    margin: 20px;
+}
+
+.ingredients > li {
+    padding: 5px;
+    padding-left: 15px;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions{
+    font-family: 'Outfit';
+    font-weight: 300;
+    margin: 20px;
+}
+
+.instructions > li{
+    padding: 5px;
+    padding-left: 15px;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions > li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
+table{
+    padding-top: 10px;
+    margin-left: 70px;
+    font-family: 'Outfit';
+    font-weight: 300;
+}
+
+table > tbody > tr > td{
+    padding: 10px;
+    padding-right: 100px;
+}
+
+table > tbody > tr > td > b{
+    color: hsl(14, 45%, 36%);
+}
